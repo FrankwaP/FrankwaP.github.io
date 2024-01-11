@@ -11,7 +11,7 @@
     "email": "francois.plessier@gmail.com",
     "phone": "06.17.53.01.56",
     "url": "",
-    "summary": "Initialement ingénieur-docteur en mécanique, j'ai complété mon profile en devenant data-scientist pour satisfaire mon goût du développement informatique, et ajouter l'intelligence artificielle à mes compétences. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.",
+    "summary": "Initialement ingénieur-docteur en mécanique, j'ai complété mon profile en devenant data-scientist pour satisfaire mon goût du développement informatique, et travailler dans le domaine de l'intelligence artificielle, en constante évolution. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.",
     "location": {
       "address": "164 rue d'Ornano",
       "postalCode": "33000",
@@ -79,10 +79,10 @@
       "url": "",
       "startDate": "2005-09",
       "endDate": "2010-09",
-      "summary": "Études expérimentale et numérique de l'effet de l'hyrdogène sur le comportement plastique des métaux.",
+      "summary": "Études expérimentale et numérique de l'effet de l'hydrogène sur le comportement plastique des métaux.",
       "_highlights": [
         "Simulations par éléments finis.",
-        "Mise en place et réalisation d’essais mécaniques.",
+        "Mise en place et réalisation d’essais mécaniques après chargements gazeux.",
         "Synthèse bibliographique."
       ]
     },
@@ -164,7 +164,8 @@
         "dvc",
         "docker",
         "bash",
-        "batch"
+        "batch",
+        "Makefile"
       ]
     },
     {
