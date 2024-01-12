@@ -600,6 +600,20 @@ section .location {
   opacity: 1 !important;
 }
 
+
+/****************
+*		PRINT/PDF
+****************/
+
+@media print  {
+  .section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
+
+
 /****************
 *		TABLET
 ****************/
@@ -772,6 +786,7 @@ section .location {
   }
 }
 
+
   </style>
   
   </head>
@@ -786,12 +801,11 @@ section .location {
     		</div>
     
     		<span class="location">
-    			<span class="address">164 rue d&#x27;Ornano</span>
     			<span class="postalCode">33000</span>
     			<span class="city">Bordeaux</span>
     		</span>
     
-    <div>Né le 9 juillet 1981 à Amiens</div>
+    
     		<div id="contact">
     			<div class="email">
     				<span class="far fa-envelope"></span>
@@ -803,6 +817,16 @@ section .location {
     			</div>
     		</div>
     
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fab fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="www.linkedin.com/in/francois-plessier">François Plessier</a>
+    					</span>
+    				</div>
+    			</div>
+    		</div>
     	</header>
     
     	<section class="section">
@@ -818,17 +842,28 @@ section .location {
     	<section id="skills">
     		<div class="item">
     			<h3 class="name">
+    				Data Sience
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>scikit-learn</li>
+    				<li>pytorch</li>
+    				<li>seaborn</li>
+    				<li>numpy</li>
+    				<li>pandas</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
     				Développement Python
     			</h3>
     			 			<ul class="keywords">
     				<li>pytest</li>
     				<li>mypy</li>
-    				<li>cookiecutter</li>
+    				<li>OpenCV</li>
+    				<li>pillow</li>
+    				<li>scikit-image</li>
+    				<li>streamlit</li>
     				<li>beautiful soup</li>
-    				<li>numpy</li>
-    				<li>pandas</li>
-    				<li>scikit-learn</li>
-    				<li>pytorch</li>
     			</ul>
     		</div>
     		<div class="item">
@@ -893,7 +928,7 @@ section .location {
               <li><p><p>Travail de recherche et développement de solutions pour les problématiques client ou de méthodes pour augmenter les performances des modèles dans le cas d'une faible quantité de données ou de données bruitées.</p></p></li>
               <li><p><p>Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour inférence.</p></p></li>
               <li><p><p>Développement d'outils logiciels pour la préparation des données et les entraînements.</p></p></li>
-              <li><p><p>Encadrement de stages (mini-projets)</p></p></li>
+              <li><p><p>Encadrement de stages (mini-projets).</p></p></li>
             </ul>
           </div>
         </section>
@@ -985,7 +1020,7 @@ section .location {
     </section>
     <section class="section">
       <header>
-        <h2 class='section-title'>Éducation <span class="item-count">(4)</span></h2>
+        <h2 class='section-title'>Formation<span class="item-count">(4)</span></h2>
       </header>
     
       <section id="education">
@@ -1010,6 +1045,13 @@ section .location {
           </header>
     
     
+          <ul class="courses">
+            <li>développement (Python/R)</li>
+            <li>machine learning</li>
+            <li>data processing</li>
+            <li>data vizualisation</li>
+            <li>statistiques</li>
+          </ul>
     
           <div class="item">
           </div>
@@ -1051,7 +1093,7 @@ section .location {
             </div>
             <div class="header-left">
               <div class="area">
-                Étude d’Ingénieur en Systèmes Mécaniques.
+                Diplôme d’Ingénieur en Systèmes Mécaniques.
               </div>
               <div class="institution">
                 Université de Technoligies de Compiègne

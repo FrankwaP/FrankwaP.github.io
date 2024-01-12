@@ -3,9 +3,9 @@
     "name": "François Plessier",
     "label": "Ingénieur et Data Scientist",
     "birth": {
-      "date": "1981-07-09",
-      "place": "Amiens",
-      "gender": "M"
+      "date": "",
+      "place": "",
+      "gender": ""
     },
     "image": "images/photo.png",
     "email": "francois.plessier@gmail.com",
@@ -13,13 +13,17 @@
     "url": "",
     "summary": "Initialement ingénieur-docteur en mécanique, j'ai complété mon profile en devenant data-scientist pour satisfaire mon goût du développement informatique, et travailler dans le domaine de l'intelligence artificielle, en constante évolution. Je suis stimulé par le travail en équipe et la compréhension de nouveaux concepts.",
     "location": {
-      "address": "164 rue d'Ornano",
+      "address": "",
       "postalCode": "33000",
       "city": "Bordeaux",
       "countryCode": "",
       "region": ""
     },
-    "profiles": []
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "François Plessier",
+      "url": "www.linkedin.com/in/francois-plessier"
+    }]
   },
   "work": [
     {
@@ -35,7 +39,7 @@
         "Travail de recherche et développement de solutions pour les problématiques client ou de méthodes pour augmenter les performances des modèles dans le cas d'une faible quantité de données ou de données bruitées.",
         "Administration de systèmes embarqués (Jetson Nvidia) et déploiement de modèles pour inférence.",
         "Développement d'outils logiciels pour la préparation des données et les entraînements.",
-        "Encadrement de stages (mini-projets) "
+        "Encadrement de stages (mini-projets)."
       ]
     },
     {
@@ -106,7 +110,7 @@
       "startDate": "2019-03",
       "endDate": "2019-09",
       "score": "",
-      "courses": []
+      "courses": ["développement (Python/R)", "machine learning", "data processing", "data vizualisation", "statistiques"]
     },
     {
       "institution": "Université de Technoligies de Compiègne",
@@ -121,7 +125,7 @@
     {
       "institution": "Université de Technoligies de Compiègne",
       "url": "",
-      "area": "Étude d’Ingénieur en Systèmes Mécaniques.",
+      "area": "Diplôme d’Ingénieur en Systèmes Mécaniques.",
       "studyType": "",
       "startDate": "2001-09",
       "endDate": "2004-06",
@@ -143,17 +147,27 @@
   "publications": [],
   "skills": [
     {
+      "name": "Data Sience",
+      "level": "",
+      "keywords": [
+        "scikit-learn",
+        "pytorch",
+        "seaborn",
+        "numpy",
+        "pandas"
+      ]
+    },
+    {
       "name": "Développement Python",
       "level": "",
       "keywords": [
         "pytest",
         "mypy",
-        "cookiecutter",
-        "beautiful soup",
-        "numpy",
-        "pandas",
-        "scikit-learn",
-        "pytorch"
+        "OpenCV",
+        "pillow",
+        "scikit-image",
+        "streamlit",
+        "beautiful soup"
       ]
     },
     {
