@@ -554,26 +554,45 @@ section .location {
   height: 5px;
 }
 
-.level.débutant .bar::after {
-  background: #eb5f51;
-  width: 2.5em;
+
+/* https://www.toptal.com/designers/colourcode/monochrome-color-builder#
+  --color-1: #182934;  dark
+  --color-2: #253f52;
+  --color-3: #325670;
+  --color-4: #3e6d8e;
+  --color-5: #4a84ad;
+  --color-6: #6398be;  light
+*/
+
+
+.level.fluencyA1 .bar::after {
+  background: #6398be;
+  width: 17%;
 }
 
-.level.intermédiaire .bar::after {
-  background: #ffdf1f;
-  width: 5em;
+.level.fluencyA2 .bar::after {
+  background: #4a84ad;
+  width: 33%;
 }
 
-.level.avancé .bar::after,
-.level.courant .bar::after {
-  background: #5cb85c;
-  width: 7.5em;
+.level.fluencyB1 .bar::after {
+  background: #3e6d8e;
+  width: 50%;
 }
 
-.level.maîtrise .bar::after,
-.level.langue.maternelle .bar::after {
-  background: #59c596;
-  width: 10em;
+.level.fluencyB2 .bar::after {
+  background: #325670;
+  width: 67%;
+}
+
+.level.fluencyC1 .bar::after {
+  background: #253f52;
+  width: 83%;
+}
+
+.level.fluencyC2 .bar::after {
+  background: #182934;
+  width: 100%;
 }
 
 #references .item {
@@ -1143,44 +1162,40 @@ section .location {
             Français
           </h3>
           <div class="item">
-            <div class="level fluency langue maternelle">
-              <em>Langue maternelle</em>
-              <div class="bar"></div>
-            </div>
-          </div>
+    <div class="level fluencyC2">
+                  <em>C2: Maîtrise</em>
+                  <div class="bar"></div>
+                </div>      </div>
         </div>
         <div class="display">
           <h3 class="language">
             Anglais
           </h3>
           <div class="item">
-            <div class="level fluency courant">
-              <em>Courant</em>
-              <div class="bar"></div>
-            </div>
-          </div>
+    <div class="level fluencyC1">
+                  <em>C1: Avancé</em>
+                  <div class="bar"></div>
+                </div>      </div>
         </div>
         <div class="display">
           <h3 class="language">
             Espagnol
           </h3>
           <div class="item">
-            <div class="level fluency intermédiaire">
-              <em>Intermédiaire</em>
-              <div class="bar"></div>
-            </div>
-          </div>
+    <div class="level fluencyB1">
+                  <em>B1: Intermédiaire</em>
+                  <div class="bar"></div>
+                </div>      </div>
         </div>
         <div class="display">
           <h3 class="language">
             Néerlandais
           </h3>
           <div class="item">
-            <div class="level fluency débutant">
-              <em>Débutant</em>
-              <div class="bar"></div>
-            </div>
-          </div>
+    <div class="level fluencyA1">
+                  <em>A1: Débutant</em>
+                  <div class="bar"></div>
+                </div>      </div>
         </div>
       </section>
     </section>
@@ -1188,6 +1203,7 @@ section .location {
       <header>
         <h2 class='section-title' class='section-title'>Centres d'intérêts</h2>
       </header>
+      <br>
       <section id="interests">
         <div class="item">
           <img class="image" src="images/rings.svg" title="Musculation au poids de corps" height="50" />
