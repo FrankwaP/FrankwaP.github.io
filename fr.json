@@ -22,7 +22,7 @@
     "profiles": [{
       "network": "LinkedIn",
       "username": "François Plessier",
-      "url": "www.linkedin.com/in/francois-plessier"
+      "url": "https://www.linkedin.com/in/francois-plessier"
     }]
   },
   "work": [
@@ -205,7 +205,7 @@
   "languages": [
     {
       "language": "Français",
-      "fluency": "C2: Maîtrise"
+      "fluency": "C2: Langue maternelle"
     },
     {
       "language": "Anglais",
